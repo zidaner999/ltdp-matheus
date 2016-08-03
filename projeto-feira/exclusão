@@ -1,0 +1,16 @@
+<html>
+      <head>
+ 
+
+ 
+     <select value="Nome do centro de interesse">nome do centro de interesse>
+		<option  value="nome centro de interesse">nome centro de interesse</option>
+		<option  value="pinto">musica</option>
+		<option  value="futsal">futsal</option>
+		<option  value="espanhol">espanhol</option>
+		<option  value="ingles">ingles</option>
+		<option  value="teatro">teatro</option>
+		<option  value="danca">danca</option>
+		
+		
+	<br><input placeholder ="NOME"type="text" id="text_name" class="banana"></br>
