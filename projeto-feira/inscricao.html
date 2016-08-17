@@ -1,69 +1,66 @@
 <html>
-	<head>
-	<!--- essa tag indicada a configuracao de aentuacao
+<head>
+<!--- essa tag indicada a configuracao de aentuacao
 --->
-	      <title>
-		 INCRIÇÃO CENTRO DE INTERESSE
-		  </title>
-		  <style>
-		  html{
-		  }
-		  /*Isso é um cometario*/
-		  #container{
-		  
-		  width: 80%; /*largura*/
-		  height:100%; /*altura*/
-		  margin:0px auto 0px auto;
-		  border-color: black;
-		  border-style:solid;
-		  border-width:1px;
-		  }
-		  .banana{
-		  border-width:5px;
-		  width 70%;/*largura*/
-		  }
-		 
-		  </style>
+<title>INCRIÇÃO CENTRO DE INTERESSE</title>
+<style>
+html {
+	
+}
+/*Isso é um cometario*/
+#container {
+	width: 80%; /*largura*/
+	height: 100%; /*altura*/
+	margin: 0px auto 0px auto;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.banana {
+	border-width: 5px;
+	width
+	70%; /*largura*/
+}
+</style>
 </head>
 <body>
-				  <div id="container">
-		<h1>Tabela de incricao do centro de interesse<h1>
-		<form action="#">
-		<input placeholder ="NOME"type="text" id="text_name" class="banana"<br>
-		<br></br>
-		<input placeholder="CODIGO DO ALUNO" type="text" id="txt_codigo" class="banana"><br></br> 
-		<input placeholder="E-MAIL"type="text" id="txt_name" class="banana"><br></br>      
-		<br><select value="centro de interesse">centro de interesse>
-		<option  value="centro de interesse">centro de interesse</option>
-		<option  value="musicas">musica</option>
-		<option  value="futsal">futsal</option>
-		<option  value="espanhol">espanhol</option>
-		<option  value="ingles">ingles</option>
-		<option  value="teatro">teatro</option>
-		<option  value="danca">danca</option>
-		</select><br>
-		<select  value="centro de interesse 2">centro de interesse 2>
-		<option  value="centro de interesse">centro de interesse</option>
-		<option  value="musica">musica</option>
-		<option  value="futsal">futsal</option>
-		<option  value="espanhol">espanhol</option>
-		<option  value="ingles">ingles</option>
-		<option  value="teatro">teatro</option>
-		<option  value="danca">danca</option>
-		</select>
-		<br> <br>
-		<input type="checkbox" id="crbox_confirma"> declaro que estou ciente que nao poderei trocar de centro de interesse durante o semestre<br></br>
-   <br></br>
-
-   <input type="submit" value="confirmar"
-        class="btn btn-success btn-lg" id="btn-confirmar"/>
-     <input type="submit" value="cancelar"
-        class="btn btn-success btn-lg" id="btn-cancelar"/>
+	<div id="container">
+		<h1>Tabela de incricao do centro de interesse</h1>
+		<form id="formulario" action="salvarinscricao.php" role="form"
+			method="POST">
+			<input placeholder="NOME" type="text" id="text_name" class="banana" /><br>
+			<br></br> <input placeholder="CODIGO DO ALUNO" type="text"
+				id="txt_codigo" class="banana"><br></br> <input
+				placeholder="E-MAIL" type="text" id="txt_name" class="banana"><br></br>
+			<br>
+			<select value="centro de interesse">
+				<option value="centro de interesse">centro de interesse</option>
+				<option value="musicas">musica</option>
+				<option value="futsal">futsal</option>
+				<option value="espanhol">espanhol</option>
+				<option value="ingles">ingles</option>
+				<option value="teatro">teatro</option>
+				<option value="danca">danca</option>
+			</select><br> <select value="centro de interesse 2">
+				<option value="centro de interesse">centro de interesse</option>
+				<option value="musica">musica</option>
+				<option value="futsal">futsal</option>
+				<option value="espanhol">espanhol</option>
+				<option value="ingles">ingles</option>
+				<option value="teatro">teatro</option>
+				<option value="danca">danca</option>
+			</select> <br> <br> <input type="checkbox" id="crbox_confirma">
+			declaro que estou ciente que nao poderei trocar de centro de
+			interesse durante o semestre<br></br> <br></br> <input type="submit"
+				value="confirmar" class="btn btn-success btn-lg" id="btn-confirmar" />
+			<input type="reset" value="cancelar" class="btn btn-success btn-lg"
+				id="btn-cancelar" />
 
 
+		</form>
 
-
-		</div>
+	</div>
 
 </body>
 </html>
